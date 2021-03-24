@@ -1,6 +1,7 @@
 <template>
-  <v-app>
+  <v-app class="container">
     <v-content>
+      <h1 class="header">Basketball 🏀</h1>
       <Calender />
     </v-content>
   </v-app>
@@ -19,3 +20,10 @@ export default {
   }),
 };
 </script>
+
+
+<style scoped>
+.header {
+  color: ##495057;
+}
+</style>
